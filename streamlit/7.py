@@ -26,5 +26,3 @@ if uploaded_file is not None:
     # Bar chart
     st.bar_chart(chart_data.set_index(column))
 
-else:
-    st.info("Please upload a CSV file.")
